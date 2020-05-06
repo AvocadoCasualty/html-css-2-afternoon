@@ -1,4 +1,6 @@
-
+ body {
+    font-family: Tahoma;
+}
 a:link {
     text-decoration: none;
     color: white;
@@ -15,13 +17,12 @@ a:hover {
     background-color: black;
     color: white;
     display: flex;
-    font-family: Tahoma;
     font-size: 14px;
     letter-spacing: 1px;
     justify-content: center;
 }
 .header-limiter {
-    width: 970px;
+    width: 900px;
     display: flex;
 }
 
@@ -42,17 +43,72 @@ a:hover {
 
 .banner {
     background-color: black;
+    background-image: url("starship.jpg");
+    height: 656px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .grey-banner {
     width: 100%;
-    height: 10vh;
-    background-color: dimgrey;
+    height: 12vh;
+    background-color: #3a3a3a;
+    opacity: 75%;
     display: flex;
     justify-content: center;
 }
 .another-box {
-    width: 970px;
+    width: 800px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+button {
+    background-color: white;
+    font-size: 8px;
+    font-weight: bold;
+    width: 140px;
+    height: 30px;
+    border-radius: 2px;
+    border: 0px solid black;
+}
+button:hover {
+    border: 2px solid #bf9e23;
+}
+
+.link-carousel {
+    height: 50px;
+    width: 100%;
+    background-color: #3a3a3a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.crew, .starship, .starlink {
+    border-right: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+    height: 50px;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+p1 {
+    color: black;
+    background-color: white;
+}
+.three-boxes {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box-1 .box-2 .box-3{
+    background-color: purple;
+    display: flex;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px dimgrey;
+    width: 250px;
+    height: 700px;
 }
